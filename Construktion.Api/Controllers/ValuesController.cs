@@ -9,7 +9,7 @@ namespace Construktion.Api.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
-        private string d = 2;
+        private string d = "dd";
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
